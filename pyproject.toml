@@ -3,7 +3,7 @@ requires = ["setuptools>=61.2.0", "wheel", "setuptools_scm[toml]>=3.4.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-hcl2"
+name = "py-hcl2"
 authors = [{name = "Amplify Education", email = "github@amplify.com"}]
 license = {text = "MIT"}
 description = "A parser for HCL2"
@@ -33,7 +33,7 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.urls]
-Homepage = "https://github.com/amplify-education/python-hcl2"
+Homepage = "https://github.com/unni-facets/py-hcl2"
 
 [project.scripts]
 hcl2tojson = "hcl2.__main__:main"
