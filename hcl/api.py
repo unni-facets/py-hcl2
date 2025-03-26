@@ -2,8 +2,8 @@
 from typing import TextIO
 
 from lark.tree import Tree as AST
-from hcl2.parser import parser
-from hcl2.transformer import DictTransformer
+from hcl.parser import parser
+from hcl.transformer import DictTransformer
 
 
 def load(file: TextIO, with_meta=False) -> dict:

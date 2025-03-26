@@ -3,10 +3,10 @@ requires = ["setuptools>=61.2.0", "wheel", "setuptools_scm[toml]>=3.4.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "py-hcl2"
+name = "py-hcl"
 authors = [{name = "Amplify Education", email = "github@amplify.com"}]
 license = {text = "MIT"}
-description = "A parser for HCL2"
+description = "A parser for hcl"
 keywords = []
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -36,12 +36,12 @@ content-type = "text/markdown"
 Homepage = "https://github.com/unni-facets/py-hcl2"
 
 [project.scripts]
-hcl2tojson = "hcl2.__main__:main"
+hcltojson = "hcl.__main__:main"
 
 [tool.setuptools]
-packages = ["hcl2"]
+packages = ["hcl"]
 zip-safe = false
 include-package-data = true
 
 [tool.setuptools_scm]
-write_to = "hcl2/version.py"
+write_to = "hcl/version.py"
